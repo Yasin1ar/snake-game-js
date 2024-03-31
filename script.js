@@ -1,3 +1,12 @@
+/**
+ * This code snippet represents a JavaScript game that simulates the classic game of Snake.
+ * It includes functions for drawing the game board, snake, and food, as well as functions for handling user input, moving the snake, and checking for collisions.
+ * The game starts when the user presses the space bar, and the snake moves in the direction specified by the arrow keys.
+ * The goal of the game is to eat the food and grow the snake without colliding with the walls or itself.
+ * The game keeps track of the player's score and high score, and the speed of the game increases as the player's score increases.
+ * The game can be reset by pressing the space bar again.
+ */
+
 // Define HTML elements
 const board = document.getElementById("game-board");
 const instructionText = document.getElementById("instruction-text");
