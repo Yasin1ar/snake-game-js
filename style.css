@@ -1,0 +1,94 @@
+/* The code snippet represents a CSS styling for the body element. 
+It sets the display property to flex, aligns items to the center, 
+justifies content to the center, sets the height to 100vh (viewport height), 
+sets the margin to 0, and applies the 'VT323' font family.  */
+
+body {
+  background-color: #000024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "VT323", monospace;
+}
+
+.snake {
+  background-color: #7b1313;
+}
+
+#game-board {
+  border-radius: 100px;
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  margin: 5px;
+}
+
+.game-border-1 {
+  border: #7b1313 solid 10px;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 10px #7b1313;
+}
+
+.game-border-2 {
+  border: #7b1313 solid 8px;
+  border-radius: 26px;
+  box-shadow: inset 0 0 0 10px #7b1313;
+}
+
+.game-border-3 {
+  border: #9e9e9e solid 30px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 5px #616161;
+}
+
+#instruction-text {
+  position: absolute;
+  top: 60%;
+  color: #e53935;
+  width: 300px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 60px;
+  margin: 0;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+}
+
+#score {
+  color: white;
+}
+
+#score,
+#highScore {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+#highScore {
+  color: #fdd835;
+  display: none;
+}
+
+.game-border-3,
+#logo {
+  background-color: #000024;
+}
+
+.snake {
+  border: #5a5a5a 1px dotted;
+}
+
+.food {
+  background-color: #fff176;
+  border: #fdd835 5px solid;
+}
+
+#logo {
+  position: absolute;
+}
