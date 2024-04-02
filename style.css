@@ -3,6 +3,13 @@ It sets the display property to flex, aligns items to the center,
 justifies content to the center, sets the height to 100vh (viewport height), 
 sets the margin to 0, and applies the 'VT323' font family.  */
 
+.orbitron-main-font {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   background-color: #000024;
   display: flex;
@@ -10,7 +17,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  font-family: "VT323", monospace;
+  font-family: "Orbitron", sans-serif;
 }
 
 .snake {
@@ -81,7 +88,7 @@ body {
 }
 
 .snake {
-  border: #5a5a5a 1px dotted;
+  border: darkblue 3px dotted;
 }
 
 .food {
@@ -91,4 +98,22 @@ body {
 
 #logo {
   position: absolute;
+}
+
+#ar a img {
+  max-width: 100%;
+  position: relative;
+  left: 13px;
+}
+
+#ar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #7b1313;
+  position: absolute;
+  /* bottom: 250px;
+  right: 300px; */
+  top: 10px;
+  left: 10px;
 }
